@@ -5,7 +5,6 @@ public class FixedSizedHashMap<ValueObject> {
 	public static final double DEFAULT_FILL_FRACTION = 0.4; //Default fill fraction for sizing of table
 	protected final int arraySize;
 	protected final String[] keyArray;
-	//protected final int[] valueArray;
 	protected final ValueObject[] valueArray;
 	protected Object notFoundValue = null;
 	protected final int hitOffset;
