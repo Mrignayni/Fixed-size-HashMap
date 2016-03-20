@@ -134,9 +134,9 @@ public class FixedSizedHashMap<ValueObject> {
 		hm.set("a", "Armageddon");
 		hm.set("b", "bail");
 		hm.set("c", "Class");
-		hm.set("d", "Dinna");
-		hm.set("l", "Leanplum.");
-		System.out.println(hm.get("d") + " is a great recruiter at " + hm.get("l"));
+		hm.set("d", "Github");
+		hm.set("l", "Rules.");
+		System.out.println(hm.get("d") + hm.get("l"));
 		hm.delete("b");
 		System.out.println(hm.get("b"));
 	}
